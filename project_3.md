@@ -32,3 +32,10 @@ The programming language I selected for the development is python on Pycharm. Th
 4. The application uses GUI.
 5. The application has to be controled with the keyboard and cursor action.
 6. The application uses English as the main language.
+
+
+## Criterion B
+
+### System Diagram
+
+
