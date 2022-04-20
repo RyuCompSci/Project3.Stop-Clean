@@ -6,10 +6,6 @@
 
 Michael Jian Cheng Tseng, the client, needs a tool to manage the everyday stop and clean schedule, its content, and feedback. It has to cover the date, tools used, duration, tasks, name of the person in charge of the task, and feedback to the stop and clean by a teacher.
 
-#### Pre-exsisting product/issue
-
--
-
 ### Proposed Solution
 
 #### Design Statement
@@ -22,7 +18,17 @@ The stopandclean managing tool is going to be developed on a programming editor:
 
 #### Justification of the software selected
 
-The programming language I selected for the development is python on Pycharm. The reason why I selected python for this game development is because it is easy to find hints on the Internet when I got stuck on a part of coding since python is one of the most popular computer language.
+##### Python
+
+The reason I chose Python for the main programming language to develop this application is that Python is one of the most commonly used programming language and therefore there are plenty of resources and sample codes on the Internet. Also, Python is considered to be the most accessible and simplest language for beginner programmers. Another reason why I use Python is simply that I am familiar with this language and it should be more accurate and faster to use this language than other languages like C. The last reason is that Python can be used as an OOP language. Adopting OOP for the project make it more effortless to keep track on the complex codings and unique properties of OOP like inheritance enables me to simplify the code.
+
+##### KivyMD
+
+I am going to use KivyMD to create GUI for the application because it is a relatively user-friendly open source library for beginners as well as the fact that this is the most popular GUI library on Python. 
+
+##### SQLAlchemy
+
+In order to manage the database for this application, I am using SQLAlchemy. SQLAlchemy enhances the flexibility and accessibility of SQL as one of the most common languge to manipulate database. Also, this SQLAlchemy correponds to the ORM use, so there is no need to learn the SQL language from zero.
 
 ### Success Criteria
 
