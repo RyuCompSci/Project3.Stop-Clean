@@ -44,4 +44,16 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 ### System Diagram
 
+![]()
 
+### UML Diagram
+
+![]()
+
+### ER Diagram
+
+![]()
+
+### Table of planning
+
+### 
