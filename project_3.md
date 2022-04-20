@@ -48,7 +48,7 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 ### UML Diagram
 
-![]()
+![](project3_UML_diagram.jpg)
 
 ### ER Diagram
 
