@@ -65,7 +65,6 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 | 5   | signup screen                            | develop signup screen                      | 1.5 h    | April 18th  | C                |
 | 6   | main screen                              | develop main screen                        | 1.5 h    | April 18th  | C                |
 | 7   | table screen                             | develop table screen                       | 1.5 h    | April 20th  | C                |
-| 8   | testing                                  | test the functionality                     | 1.5 h    |  April 21st | D                |
 | 9   | MVP video                                | film the MVP video                         | 30 min   | April 21st  | D                |
 
 ### 
