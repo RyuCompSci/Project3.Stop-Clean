@@ -52,7 +52,7 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 ### ER Diagram
 
-![]()
+![](Project3_client_practice_ER.jpg)
 
 ### Table of planning
 
