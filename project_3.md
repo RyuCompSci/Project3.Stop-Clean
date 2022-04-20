@@ -56,4 +56,16 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 ### Table of planning
 
+| No. | task                                     | content                                    | duration | date        | success criteria |
+|-----|------------------------------------------|--------------------------------------------|----------|-------------|------------------|
+| 1   | discuss about the outline of the product | identify the problem and ideate a solution | 20 min   | March 2nd   | A                |
+|     | proposed solution and criteria A         | complete criteria A                        | 1 h      | March 18th  | A                |
+|     | draw diagrams                            | draw UML, ER, system diagram               | 40 min   | March 18th  | B                |
+|     | Login screen                             | develop login screen                       | 1.5 h    | April 10th  | C                |
+|     | signup screen                            | develop signup screen                      | 1.5 h    | April 18th  | C                |
+|     | main screen                              | develop main screen                        | 1.5 h    | April 18th  | C                |
+|     | table screen                             | develop table screen                       | 1.5 h    | April 20th  | C                |
+|     | testing                                  | test the functionality                     | 1.5 h    |  April 21st | D                |
+|     | MVP video                                | film the MVP video                         | 30 min   | April 21st  | D                |
+
 ### 
