@@ -1,6 +1,6 @@
 # Project 3
 
-## Criterion A: Planning
+## Criteria A: Planning
 
 ### Problem definition
 
@@ -45,7 +45,7 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 ![](confirmation_email1.png)
 
 
-## Criterion B
+## Criteria B
 
 ### System Diagram
 
@@ -72,4 +72,12 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 | 7   | table screen                             | develop table screen                       | 1.5 h    | April 20th  | C                |
 | 9   | MVP video                                | film the MVP video                         | 30 min   | April 21st  | D                |
 
-### 
+## Criteria C
+
+### Works cited
+
+@ariku. “SQLAlchemyの基本的な使い方.” Qiita, 14 Aug. 2021, qiita.com/ariku/items/75799665acd09520bed2. 
+Albert, Adwin, et al. “Valueerror: Mdlabel._text Accept Only STR.” Stack Overflow, 1 Aug. 2020, stackoverflow.com/questions/64783110/valueerror-mdlabel-text-accept-only-str. 
+Assurance Technologies. “CryptContext Tutorial¶.” CryptContext Tutorial - Passlib v1.7.4 Documentation, 8 Oct. 2020, passlib.readthedocs.io/en/stable/narr/context-tutorial.html. 
+Rodríguez, Andrés, et al. “Welcome to KIVYMD's Documentation!¶.” Welcome to KivyMD's Documentation! - KivyMD Documentation, 2020, kivymd.readthedocs.io/en/0.104.1/index.html. 
+the SQLAlchemy authors and contributors. “SQLAlchemy 1.4 Documentation.” ORM Quick Start - SQLAlchemy 1.4 Documentation, 6 Apr. 2022, docs.sqlalchemy.org/en/14/orm/quickstart.html. 
