@@ -65,7 +65,13 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 ### Flow Diagram
 
-####
+#### Login Screen
+
+![](project3_flowdiagram1.jpg)
+
+#### Signup Screen
+
+![]()
 
 ### Table of planning
 
