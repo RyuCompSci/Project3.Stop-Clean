@@ -73,6 +73,18 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 ![](project3_flowdiagram2.jpg)
 
+### Testing
+
+| No. | step                    | type of test        | procedure                                                                                          | success criteria                                               | success? |
+|-----|-------------------------|---------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------|
+| 1   | Sign up and log in      | integration testing | Sign up and log in with the email and password just used in signup                                 | To log in and move to the main screen                          | Yes      |
+| 2   | encryption test         | unit testing        | print the encrypted password and confirm if it is encrypted                                        | encrypted password is printed                                  | Yes      |
+| 3   | add new items           | unit testing        | add new items on the NewItemScreen and confirm if it is saved on the database                      | new items on the database                                      | Yes      |
+| 4   | search the record error | unit testing        | enter keywords that does not exist on the database and see if an error shows up                    | all the labels in the search result turns to "None"            | Yes      |
+| 5   | search the record       | unit testing        | enter keywords and confirm the record that relates to the keyword shows up.                        | The records are show in the search result                      | Yes      |
+| 6   | Final software check    | system testing      | Verify the software works properly without bugs or typos throughout the program                    | the software functions without bugs or any kind of malfunction | Yes      |
+| 7   | Good coding practice    | usability testing   | confirm if the code is entirely commented and easy for the future developers to figure the funcion | the code is entirely commented                                 | Yes      |
+
 ### Table of planning
 
 | No. | task                                     | content                                    | duration | date        | success criteria |
@@ -387,8 +399,17 @@ Software update will be done when there is a request from the client or I find a
 
 ### Works cited
 
-@ariku. “SQLAlchemyの基本的な使い方.” Qiita, 14 Aug. 2021, qiita.com/ariku/items/75799665acd09520bed2.  
-Albert, Adwin, et al. “Valueerror: Mdlabel._text Accept Only STR.” Stack Overflow, 1 Aug. 2020, stackoverflow.com/questions/64783110/valueerror-mdlabel-text-accept-only-str.  
-Assurance Technologies. “CryptContext Tutorial¶.” CryptContext Tutorial - Passlib v1.7.4 Documentation, 8 Oct. 2020, passlib.readthedocs.io/en/stable/narr/context-tutorial.html.  
-Rodríguez, Andrés, et al. “Welcome to KIVYMD's Documentation!¶.” Welcome to KivyMD's Documentation! - KivyMD Documentation, 2020, kivymd.readthedocs.io/en/0.104.1/index.html.  
-the SQLAlchemy authors and contributors. “SQLAlchemy 1.4 Documentation.” ORM Quick Start - SQLAlchemy 1.4 Documentation, 6 Apr. 2022, docs.sqlalchemy.org/en/14/orm/quickstart.html.  
+@ariku. “SQLAlchemyの基本的な使い方.” Qiita, 14 Aug. 2021, qiita.com/ariku/items/75799665acd09520bed2.   
+  
+Albert, Adwin, et al. “Valueerror: Mdlabel._text Accept Only STR.” Stack Overflow, 1 Aug. 2020, stackoverflow.com/questions/64783110/valueerror-mdlabel-text-accept-only-str.   
+  
+Assurance Technologies. “CryptContext Tutorial¶.” CryptContext Tutorial - Passlib v1.7.4 Documentation, 8 Oct. 2020, passlib.readthedocs.io/en/stable/narr/context-tutorial.html.   
+  
+Dimitriou, Kostas, and Markos Hatzitaskos. Core Computer Science: For the IB Diploma Program (International Baccalaureate). Express Publishing, 2018.   
+  
+Doherty, Erin. “What Is Object-Oriented Programming? Oop Explained in Depth.” Educative, 15 Apr. 2020, www.educative.io/blog/object-oriented-programming.   
+  
+Rodríguez, Andrés, et al. “Welcome to KIVYMD's Documentation!¶.” Welcome to KivyMD's Documentation! - KivyMD Documentation, 2020, kivymd.readthedocs.io/en/0.104.1/index.html.   
+  
+the SQLAlchemy authors and contributors. “SQLAlchemy 1.4 Documentation.” ORM Quick Start - SQLAlchemy 1.4 Documentation, 6 Apr. 2022, docs.sqlalchemy.org/en/14/orm/quickstart.html.   
+  
