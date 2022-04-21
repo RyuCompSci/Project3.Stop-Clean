@@ -397,6 +397,10 @@ Software update will be done when there is a request from the client or I find a
 
 ## Criteria D
 
+### Demonstration video
+
+
+
 ### Works cited
 
 @ariku. “SQLAlchemyの基本的な使い方.” Qiita, 14 Aug. 2021, qiita.com/ariku/items/75799665acd09520bed2.   
