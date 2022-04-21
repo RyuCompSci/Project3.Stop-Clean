@@ -49,7 +49,7 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 ### Wire Frame
 
-![]()
+![](project3_wire_frame.jpg)
 
 ### System Diagram
 
