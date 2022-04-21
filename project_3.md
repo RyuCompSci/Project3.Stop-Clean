@@ -39,6 +39,11 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 5. The application has to be controled with the keyboard and cursor action.
 6. The application uses English as the main language.
 
+#### Client confirmation
+
+![]()
+![]()
+
 
 ## Criterion B
 
