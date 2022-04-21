@@ -71,7 +71,7 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 #### Signup Screen
 
-![]()
+![](project3_flowdiagram2.jpg)
 
 ### Table of planning
 
