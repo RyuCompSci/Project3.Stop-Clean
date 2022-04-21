@@ -63,6 +63,10 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 ![](Project3_client_practice_ER.jpg)
 
+### Flow Diagram
+
+####
+
 ### Table of planning
 
 | No. | task                                     | content                                    | duration | date        | success criteria |
