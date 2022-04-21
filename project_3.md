@@ -47,6 +47,10 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 ## Criteria B
 
+### Wire Frame
+
+![]()
+
 ### System Diagram
 
 ![](project3_system_diagram.jpg)
