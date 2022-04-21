@@ -41,7 +41,7 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 #### Client confirmation
 
-![](Screenshot 2022-04-21 at 22.09.45.png)
+![](confirmation_email1.png)
 ![](Screenshot 2022-04-21 at 22.09.57.png)
 
 
