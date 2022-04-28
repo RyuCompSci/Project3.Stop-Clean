@@ -4,13 +4,13 @@
 
 ### Problem definition
 
-Michael Jian Cheng Tseng, the client, needs a tool to manage the everyday stop and clean schedule, its content, and feedback. It has to cover the date, tools used, duration, tasks, name of the person in charge of the task, and feedback to the stop and clean by a teacher.
+My client needs a tool to manage the everyday stop and clean schedule, its content, and feedback. It has to cover the date, tools used, duration, tasks, name of the person in charge of the task, and feedback to the stop and clean by a teacher. To make it available, we came to an agreement that a stop&clean record management application on computer is useful. 
 
 ### Proposed Solution
 
 #### Design Statement
 
-I will to design and make an application for a client who wants a tool to keep the records of the stop and clean his house had. The application records the notes for everyday stop and clean, and provides sign-up/log-in system to the users. It will take 4 weeks to make and will be evaluated according to the criteria shown below. 
+I will design and make a computer application for a client who wants a tool to keep the records of the stop and clean, which is a way to call house or residence cleaning in UWC ISAK Japan. The application records the notes for everyday stop and clean, and provides sign-up/log-in system to the users. It will take 4 weeks to make and will be evaluated according to the criteria shown below. 
 
 #### System
 
