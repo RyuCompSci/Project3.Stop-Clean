@@ -415,5 +415,16 @@ Doherty, Erin. “What Is Object-Oriented Programming? Oop Explained in Depth.�
   
 Rodríguez, Andrés, et al. “Welcome to KIVYMD's Documentation!¶.” Welcome to KivyMD's Documentation! - KivyMD Documentation, 2020, kivymd.readthedocs.io/en/0.104.1/index.html.   
   
-the SQLAlchemy authors and contributors. “SQLAlchemy 1.4 Documentation.” ORM Quick Start - SQLAlchemy 1.4 Documentation, 6 Apr. 2022, docs.sqlalchemy.org/en/14/orm/quickstart.html.   
+the SQLAlchemy authors and contributors. “SQLAlchemy 1.4 Documentation.” ORM Quick Start - SQLAlchemy 1.4 Documentation, 6 Apr. 2022, docs.sqlalchemy.org/en/14/orm/quickstart.html. 
+
+https://pypl.github.io/PYPL.html
+https://www.tiobe.com/tiobe-index/
+https://smartbear.com/blog/best-programming-language-to-learn-first/#:~:text=Python,someone%20who's%20new%20to%20programming.
+https://www.springboard.com/blog/software-engineering/top-programming-languages/
+https://www.bestcolleges.com/bootcamps/guides/6-easiest-programming-languages-to-learn/
+https://www.activestate.com/blog/the-best-python-frameworks-for-mobile-development-and-how-to-use-them/
+https://kivymd.readthedocs.io/en/latest/
+https://kivy.org/doc/stable/gettingstarted/intro.html
+https://pypi.org/project/SQLAlchemy/
+https://quintagroup.com/cms/python/sqlalchemy
   
