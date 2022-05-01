@@ -39,17 +39,21 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 5. The application has to be controled with the keyboard and cursor action.
 6. The application uses English as the main language.
 
-#### Client confirmation
+### Success Criteria revised
 
-![](confirmation_email2.png)
-![](confirmation_email1.png)
+1. The application is going to keep the persistent records of stop and clean including the date, tools used, duration, tasks, name of the person in charge of the task, and feedback on the stop and clean by a teacher.
+2. The application has a log-in system and sign-up system for the users.
+3. All the data about users and stop&clean records are encrypted and stored.
+4. The application uses graphical user interface.
+5. The users of this application are available to check the past records by entering some hints.
+6. The users are able to add stop&clean records freely.
 
 
 ## Criteria B
 
 ### Wire Frame
 
-![](project3_wire_frame.jpg)
+![](project3_wire_frame.png)
 
 ### System Diagram
 
@@ -401,6 +405,15 @@ Software update will be done when there is a request from the client or I find a
 
 https://drive.google.com/file/d/1_TIlGAVxw2Q7OC7bdHgAil83Jq2sUxaT/view?usp=sharing
 
+
+## Appendix
+
+#### Client confirmation
+
+![](confirmation_email2.png)
+![](confirmation_email1.png)
+
+
 ### Works cited
 
 @ariku. “SQLAlchemyの基本的な使い方.” Qiita, 14 Aug. 2021, qiita.com/ariku/items/75799665acd09520bed2.   
@@ -427,4 +440,3 @@ https://kivymd.readthedocs.io/en/latest/
 https://kivy.org/doc/stable/gettingstarted/intro.html
 https://pypi.org/project/SQLAlchemy/
 https://quintagroup.com/cms/python/sqlalchemy
-  
