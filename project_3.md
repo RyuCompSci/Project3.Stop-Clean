@@ -128,9 +128,17 @@ Figure6 : Flow diagram for the signup screen of the application
 
 ### Existing tools
 
+#### List of techniques used while developping
+
+1. Object Oriented Programming (OOP)
+2. KivyMD Library
+3. pbkd2f Hashing
+4. SQLAlchemy Object Relational Mapping (ORM) Library
+
+
 #### OOP paradigm
 
-Object Oriented programming (OOP) is a programming paradigm that relies on the concept of classes and objects.
+Object Oriented programming (OOP) is a programming paradigm that relies on the concept of classes and objects. For developpers, it is easier to use the OOP structure rather than the FP when the project is sufficiently complicated because the developpers are able to find issues in each distinguished class with smaller efforts. Also, OOP paradigm is compatible with KivyMD.
 
 ```.py
 class LoginScreen(MDScreen):
@@ -174,7 +182,7 @@ class LoginScreen(MDScreen):
             self.ids.login_label_text.text = "Either your email or password is wrong"
 ```
 
-Above is the class for the login screen of the app. The first function; initializer defines the attributes used in the class. In this case, it defines the method of encrypting the passwords. The function "try_login" let the user move on to the next screen when the email and the password entered are already existing in the user database. OOP paradigm is the most adequate method of coding this app because it is effortless and quick to find the function that I am looking for and also easy to find the issues in the code. 
+Above is the class for the login screen of the app. The first function; initializer defines the attributes used in the class. In this case, it defines the method of encrypting the passwords in order to uphold the security of user data. The function "try_login" let the user move on to the next screen when the email and the password entered are already existing in the user database. OOP paradigm is the most adequate method of coding this app because it is effortless and quick to find the function that I am looking for and also easy to find the issues in the code. 
 
 ```.py
 class RegisterScreen(MDScreen):
@@ -438,27 +446,34 @@ https://drive.google.com/file/d/1_TIlGAVxw2Q7OC7bdHgAil83Jq2sUxaT/view?usp=shari
 
 ### Works cited
 
-@ariku. “SQLAlchemyの基本的な使い方.” Qiita, 14 Aug. 2021, qiita.com/ariku/items/75799665acd09520bed2.   
+1. @ariku. “SQLAlchemyの基本的な使い方.” Qiita, 14 Aug. 2021, qiita.com/ariku/items/75799665acd09520bed2.   
   
-Albert, Adwin, et al. “Valueerror: Mdlabel._text Accept Only STR.” Stack Overflow, 1 Aug. 2020, stackoverflow.com/questions/64783110/valueerror-mdlabel-text-accept-only-str.   
+2. Albert, Adwin, et al. “Valueerror: Mdlabel._text Accept Only STR.” Stack Overflow, 1 Aug. 2020, stackoverflow.com/questions/64783110/valueerror-mdlabel-text-accept-only-str.   
   
-Assurance Technologies. “CryptContext Tutorial¶.” CryptContext Tutorial - Passlib v1.7.4 Documentation, 8 Oct. 2020, passlib.readthedocs.io/en/stable/narr/context-tutorial.html.   
-  
-Dimitriou, Kostas, and Markos Hatzitaskos. Core Computer Science: For the IB Diploma Program (International Baccalaureate). Express Publishing, 2018.   
-  
-Doherty, Erin. “What Is Object-Oriented Programming? Oop Explained in Depth.” Educative, 15 Apr. 2020, www.educative.io/blog/object-oriented-programming.   
-  
-Rodríguez, Andrés, et al. “Welcome to KIVYMD's Documentation!¶.” Welcome to KivyMD's Documentation! - KivyMD Documentation, 2020, kivymd.readthedocs.io/en/0.104.1/index.html.   
-  
-the SQLAlchemy authors and contributors. “SQLAlchemy 1.4 Documentation.” ORM Quick Start - SQLAlchemy 1.4 Documentation, 6 Apr. 2022, docs.sqlalchemy.org/en/14/orm/quickstart.html. 
+3. Assurance Technologies. “CryptContext Tutorial¶.” CryptContext Tutorial - Passlib v1.7.4 Documentation, 8 Oct. 2020, passlib.readthedocs.io/en/stable/narr/context-tutorial.html. 
 
-https://pypl.github.io/PYPL.html
-https://www.tiobe.com/tiobe-index/
-https://smartbear.com/blog/best-programming-language-to-learn-first/#:~:text=Python,someone%20who's%20new%20to%20programming.
-https://www.springboard.com/blog/software-engineering/top-programming-languages/
-https://www.bestcolleges.com/bootcamps/guides/6-easiest-programming-languages-to-learn/
-https://www.activestate.com/blog/the-best-python-frameworks-for-mobile-development-and-how-to-use-them/
-https://kivymd.readthedocs.io/en/latest/
-https://kivy.org/doc/stable/gettingstarted/intro.html
-https://pypi.org/project/SQLAlchemy/
-https://quintagroup.com/cms/python/sqlalchemy
+4. BestColleges staff writers. “The 6 Easiest Programming Languages to Learn: Bestcolleges.” BestColleges.com, 2 Nov. 2021, www.bestcolleges.com/bootcamps/guides/6-easiest-programming-languages-to-learn/. 
+
+5. Carbonnelle, Pierre. “PYPL Popularity of Programming Language Index.” Index, May 2022, pypl.github.io/PYPL.html. 
+
+6. Despoudis, Theo. “The Best Python Frameworks for Mobile Development and How to Use Them.” ActiveState, 23 Mar. 2021, www.activestate.com/blog/the-best-python-frameworks-for-mobile-development-and-how-to-use-them/. 
+  
+7. Dimitriou, Kostas, and Markos Hatzitaskos. Core Computer Science: For the IB Diploma Program (International Baccalaureate). Express Publishing, 2018.   
+  
+8. Doherty, Erin. “What Is Object-Oriented Programming? Oop Explained in Depth.” Educative, 15 Apr. 2020, www.educative.io/blog/object-oriented-programming. 
+
+9. Gupta, Sakshi. “Top 5 Easiest and Top 5 Hardest Programming Languages to Learn.” Springboard Blog, 27 Apr. 2022, www.springboard.com/blog/software-engineering/top-programming-languages/. 
+
+10. Kivy. “Introduction¶.” Kivy, kivy.org/doc/stable/gettingstarted/intro.html. 
+
+11. McPeak, Alex. “What's the Best Programming Language to Learn First? It Depends.” SmartBear.com, 18 Apr. 2017, smartbear.com/blog/best-programming-language-to-learn-first/#:~:text=Python,someone%20who's%20new%20to%20programming. 
+
+12. Python Software Foundation. “Sqlalchemy.” PyPI, 2022, pypi.org/project/SQLAlchemy/.
+  
+13. Rodríguez, Andrés, et al. “Welcome to KIVYMD's Documentation!¶.” Welcome to KivyMD's Documentation! - KivyMD Documentation, 2020, kivymd.readthedocs.io/en/0.104.1/index.html.   
+  
+14. the SQLAlchemy authors and contributors. “SQLAlchemy 1.4 Documentation.” ORM Quick Start - SQLAlchemy 1.4 Documentation, 6 Apr. 2022, docs.sqlalchemy.org/en/14/orm/quickstart.html. 
+
+15. TIOBE Software BV. “Latest News.” TIOBE, Apr. 2022, www.tiobe.com/tiobe-index/. 
+
+16. Zoriana. “Sqlalchemy.” Quintagroup, 29 Nov. 2018, quintagroup.com/cms/python/sqlalchemy.
