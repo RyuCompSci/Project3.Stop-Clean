@@ -65,7 +65,7 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 
 ### ER Diagram
 
-![](Project3_client_practice_ER.jpg)
+![](Project3_client_practice_ER.drawio.png)
 
 ### Flow Diagram
 
