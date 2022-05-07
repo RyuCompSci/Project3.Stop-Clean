@@ -54,28 +54,34 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 ### Wire Frame
 
 ![](project3_wire_frame.drawio.png)
+Figure1 : Wire frame for the proposed GUI
 
 ### System Diagram
 
 ![](project3_system_diagram.drawio.png)
+Figure2 : System Diagram for the proposed application
 
 ### UML Diagram
 
 ![](project3.class_UMLDiagram.drawio.png)
+Figure3 : UML Diagram for the OOP classes in the application
 
 ### ER Diagram
 
 ![](Project3_client_practice_ER.drawio.png)
+Figure4 : ER diagram for the database
 
 ### Flow Diagram
 
 #### Login Screen
 
 ![](project3_flowdiagram1.jpg)
+Figure5 : Flow diagram for the login screen of the application
 
 #### Signup Screen
 
 ![](project3_flowdiagram2.jpg)
+Figure6 : Flow diagram for the signup screen of the application
 
 ### Testing
 
@@ -89,18 +95,34 @@ In order to manage the database for this application, I am using SQLAlchemy. SQL
 | 6   | Final software check    | system testing      | Verify the software works properly without bugs or typos throughout the program                    | the software functions without bugs or any kind of malfunction | Yes      |
 | 7   | Good coding practice    | usability testing   | confirm if the code is entirely commented and easy for the future developers to figure the funcion | the code is entirely commented                                 | Yes      |
 
+### Revised testing plan
+
+| No. | step                    | type of test        | procedure                                                                                          | success criteria                                               | success? |
+|-----|-------------------------|---------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------|
+| 1   | Sign up and log in      | integration testing | Sign up with R as the user name, 2023.ryu.koshiba@gmail.com as the email, and test_pass as the password. Then log in with the email and password just used in the registration. Run the same test with different inputs for several times. example : (name, email, password) -> (Y, 2011.john.doe@gmail.com, test_password)                              | To log in with the inputs used in the signup and move to the main screen                          | Yes      |
+| 2   | encryption test         | unit testing        | print the encrypted password and confirm if it is encrypted (password = test_test)                                        | encrypted password is printed (password = test_test)                                  | Yes      |
+| 3   | add new items           | unit testing        | add new items on the NewItemScreen and confirm if it is saved on user_item on stop&clean.db  (new items : (date, person_on_duty, duration, task, feedback, rating, start_time, tool) = (8/4/2022, Michael, 2, trash, good, 7, 2030, N/A))                     | confirm the inputs on the database                                      | Yes      |
+| 4   | search the record error | unit testing        | enter keywords that does not exist on the database and see if an error shows up (keyword : (date, start_time) = (32/13/2023, 2560))                   | all the labels in the search result turns to "None"            | Yes      |
+| 5   | search the record       | unit testing        | enter keywords and confirm if the record that has the same data as the keyword shows up.                        | The records are show in the search result                      | Yes      |
+| 6   | Final software check    | system testing      | Verify if the software works properly without bugs or typos throughout the program                    | the software functions without bugs or any kind of malfunction and there is no typos found | Yes      |
+| 7   | Good coding practice    | usability testing   | confirm if the code is entirely commented and easy for the future developers to figure the funcion | the code is entirely commented                                 | Yes      |
+
 ### Table of planning
 
-| No. | task                                     | content                                    | duration | date        | success criteria |
+| No. | task                                     | content                                    | duration | date        | Criterion |
 |-----|------------------------------------------|--------------------------------------------|----------|-------------|------------------|
 | 1   | discuss about the outline of the product | identify the problem and ideate a solution | 20 min   | March 2nd   | A                |
-| 2   | proposed solution and criteria A         | complete criteria A                        | 1 h      | March 18th  | A                |
+| 2   | proposed solution and criteria A         | complete criteria A (Problem definition, design statement, system, justification of the software, success criteria)                        | 2 h      | March 18th  | A                |
 | 3   | draw diagrams                            | draw UML, ER, system diagram               | 40 min   | March 18th  | B                |
-| 4   | Login screen                             | develop login screen                       | 1.5 h    | April 10th  | C                |
-| 5   | signup screen                            | develop signup screen                      | 1.5 h    | April 18th  | C                |
-| 6   | main screen                              | develop main screen                        | 1.5 h    | April 18th  | C                |
-| 7   | table screen                             | develop table screen                       | 1.5 h    | April 20th  | C                |
-| 9   | MVP video                                | film the MVP video                         | 30 min   | April 21st  | D                |
+| 4   | Login screen (kivy)                             | develop login screen on kivyMD file                       | 1.5 h    | April 10th  | C                |
+| 5   | Login screen (Python)                             | develop login screen on Python file                       | 1.5 h    | April 10th  | C                |
+| 6   | signup screen (kivy)                            | develop signup screen on kivyMD file                      | 1.5 h    | April 18th  | C                |
+| 7   | signup screen (Python)                            | develop signup screen on Python file                      | 1.5 h    | April 18th  | C                |
+| 8   | main screen (kivy)                              | develop main screen on kivyMD file                        | 1.5 h    | April 18th  | C                |
+| 9   | main screen (Python)                               | develop main screen on Python file                        | 1.5 h    | April 18th  | C                |
+| 10   | table screen (kivy)                             | develop table screen on kivyMD file                       | 1.5 h    | April 20th  | C                |
+| 11   | table screen (Python)                             | develop table screen on Python file                       | 1.5 h    | April 20th  | C                |
+| 12   | MVP video                                | film the MVP video                         | 30 min   | April 21st  | D                |
 
 ## Criteria C
 
